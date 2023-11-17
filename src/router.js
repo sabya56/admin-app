@@ -10,6 +10,7 @@ export const routes = [
   },
   {
     path: '/page1',
+    name: 'page1',
     component: PageOne
   },
   {
@@ -18,6 +19,7 @@ export const routes = [
   },
   {
     path: '/dashboard',
+    name: 'dashboard',
     component: Dashboard
   }
 ];
